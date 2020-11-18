@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/composer" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/league/commonmark-ext-table" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/Jami3ati/vendor/swiftmailer/swiftmailer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/Jami3ati/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>

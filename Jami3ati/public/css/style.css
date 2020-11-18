@@ -1,0 +1,514 @@
+ /* exit color EF233C*/
+body {
+    font-family: "Arial Narrow";
+    height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    color: azure;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.container>aside{
+    position: absolute;
+    width: 5.5vw;
+    right: 0;
+    background: #000a17;/*#001017;/* #048b93;*/
+    height: 90vh;
+    z-index: 2;
+}
+.triangle-left {
+    position: absolute;
+    border-top: 2vw solid transparent;
+    border-right: 1vw solid #001017;/*#000a17;/*#048b93;*/
+    border-bottom: 2vw solid transparent;
+    margin-left: -1vw;
+    margin-top: 7vh;
+}
+.container>aside>img , .container>aside>img:last-child{
+    position: relative;
+    display: block;
+    max-width: 5vw;
+    width: auto;
+    height: 4vh;
+    max-height: 7vh;
+    z-index: 0;
+    margin: 2vh auto 3vh auto;
+}
+.container>aside>img:last-child{
+    position: absolute;
+    margin-left: 1.5vw;
+    bottom: 0;
+}
+.container>div{
+    position: relative;
+    width: 95vw;
+    height: 90vh;
+}
+.container>div>nav{
+    position: relative;
+    background: #000a17;/*#752e40;/*#69306d ;/*#45050c;/* #6c464e;/*#003049*/
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 7vh;
+    min-height: 7vh;
+    /*box-shadow: 0 0 5px 2px  dimgrey;*/
+}
+.container>div>.contenu{
+    max-width: 100%;
+    background: #000a17;/*#f1ffe7;/*#20182b;*/
+    min-height: 83vh;
+    max-height: 83vh;
+    overflow-y: auto;
+}
+.profil{
+    margin-left: 3px;
+    min-width: 20vh;
+    padding: 0.5vh;
+    position: relative;
+    display: inline-block;
+    min-height: 6vh;
+    max-height: 6vh;
+}
+.profil>.profilinfo{
+    width: max-content;
+    font-size: 2vh;
+    display: inline-block;
+    max-height: 6vh;
+    margin-top: 1vh;
+}
+.profil>.img{
+    margin-right: 1vw;
+    display: inline-block;
+    max-height: 6vh;
+    border-radius: 10% 40%;
+    float: left;
+}
+.img>img{
+    display: inline-block;
+    max-height: 6vh;
+    border-radius: 10% 40%;
+}
+nav>img{
+    top: 1vh;
+    position: absolute;
+    right: 1vh;
+    height: 5vh;
+    margin-right: 0.5vw;
+}
+footer{
+    background: #3f9ae5;/*#6c464e;/*#e3b5a4;/*#a9fdac;*/
+    height: 10vh;
+    font-size: 2vh;
+}
+footer:hover{
+    background: #e3b5a4;/*#44cf6c;*/
+}
+
+.container>div>.contenu>.qsts{
+    margin: 0vh auto 2vh auto;
+    max-width: 90vw;
+    min-height: 30vh;
+}
+
+.container>div>.contenu>.qsts>.qst{
+    position: relative;
+    background-color: #f1ffe7 ;
+    width: 90vw;
+    min-height: 10vh;
+    height: available;
+    display: inline-block;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: black;
+}
+.container>div>.contenu>.qsts>.qst:first-child{
+    position: relative;
+    background-color: #000a17;
+    border: 0.5vh dashed white;
+    /*box-shadow: 0 0 23px 0 rgba(255, 255, 255, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19);*/
+}
+.container>div>.contenu>.qsts>.qst>textarea{
+    display: block;
+    border: none;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1vw;
+}
+.container>div>.contenu>.qsts>.qst>p{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container>div>.contenu>.qsts>.qst>span{
+    position: relative;
+    display: inline-block;
+    margin-left: 1vw;
+    bottom: 0.5vh;
+    font-size: 3vh;
+    color: #048b93;
+}
+.container>div>.contenu>.qsts>.qst>span>img{
+    height: 3vh;
+    margin-right: 0.5vw;
+}
+attachedPiece>img{
+    height: 2vh;
+    margin-right: 0.5vw;
+}
+attachedPiece *{
+    float: right;
+    text-decoration: underline;
+}
+attachedPiece *:hover{
+    text-decoration: none;
+}
+attachedPiece{
+    position: relative;
+    float: right;
+    bottom: 0.5vh;
+    font-size: 2vh;
+    margin-right: 1vw;
+    color: dimgrey;
+}
+.container>div>.contenu>.qsts>.qst>span>span{
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+    bottom: 0;
+}
+.container>div>.contenu>.qsts>.qst>span *:hover{
+    text-decoration: none;
+}
+.container>div>.contenu>.qsts>.qst>span *{
+    float: left;
+    font-size: 2vh;
+}
+.container>div>.contenu>.qsts>.qst>span .nb{
+    margin-right: 0.5vw;
+}
+.pubIcon{
+    position: relative;
+}
+.pubIcon>img{
+    height: 4vh;
+    float: right;
+    margin: 1vw;
+}
+.container>div>.contenu>.qsts>.qst>.pubIcon>button{
+    position: relative;
+    float: right;
+    margin: 1vw;
+    border: none;
+    height: 4vh;
+    background-color: dodgerblue;
+    color: #f1ffe7;
+    float: right;
+}
+.container>div>.contenu>.qsts>.qst>img{
+    position: relative;
+    float: right;
+    margin: 1vw;
+    border: none;
+    height: 4vh;
+    background-color: dodgerblue;
+    color: #f1ffe7;
+}
+.profilinfo{
+    display: block;
+    height: 5vh;
+}
+.profilinfo img{
+    max-height: 5vh;
+    float: left;
+}
+.profilinfo span:last-child{
+    color: silver;
+}
+.profilinfo time{
+    color: dimgrey;
+    float: right;
+    font-size: 2.5vh;
+    margin-top: 1vh;
+    margin-right: 1vw;
+}
+.profilinfo img~span:last-child{
+    color:  #cc442b;
+    float: left;
+    margin-left: 2vw;
+    font-size: 3vh;
+}
+.qst:first-child>.profilinfo img~span:last-child{
+    color:  #f1ffe7;
+    float: left;
+    margin-left: 2vw;
+    font-size: 3vh;
+}
+.container>div>.contenu>.navInretn{
+    background-color: #752e40;/*#6c464e;/*#e3b5a4;/*#f5e9e2 ;/*#a5668b;/*#ffbf46 ;/*#44cf6c;*/
+    max-width: 100%;
+    height: 7vh;
+    font-size: 5vh;
+}
+.container>div>.contenu>.navInretn>img{
+    max-width: 5vh;
+    max-height: 5vh;
+    margin-left: 1vh;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    border-radius: 40%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+
+}
+ .container>div>.contenu>.modules{
+     margin: 0vh auto 2vh auto;
+     max-width: 84.5vw;
+     min-height: 30vh;
+ }
+ .container>div>.contenu>.modules>.module:nth-child(5n+1),.module:nth-child(5n+2),.module:nth-child(5n+3),.module:nth-child(5n+4){
+     position: relative;
+     background-color: #f1ffe7 ;
+     width: 15vw;
+     height: 15vw;
+     display: inline-block;
+     margin-top: 5vh;
+     margin-right: 2vw;
+     border-radius: 10%;
+     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19);
+     float: left;
+ }
+
+ .container>div>.contenu>.modules>.module:nth-child(5n){
+     background-color: #f1ffe7 ;
+     width: 15vw;
+     height: 15vw;
+     display: inline-block;
+     float: left;
+     margin-top: 5vh;
+     border-radius: 10%;
+     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19)
+ }
+
+ .container>div>.contenu>.modules>.module:hover{
+     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .container>div>.contenu>.navInretn{
+     background-color: #548cff;
+     max-width: 100%;
+     height: 7vh;
+ }
+ .container>div>.contenu>.modules>.module{
+     text-align: center;
+     color: #09A6A8;
+     font-size: 2vw;
+     font-weight: bold;
+ }
+ .container>div>.contenu>.modules>.module>p>span{
+     text-align: center;
+     color: #2EE1B3;
+     font-size: 1.5vw;
+ }
+ .container>div>.contenu>.modules>.module>div{
+     position: relative;
+     width: 15vw;
+     height: 1.5vw;
+     /*margin: 2vh;*/
+     bottom: 2vh;
+ }
+ .container>div>.contenu>.modules>.module>div>p{
+     color: #048b93;
+     width: 5vw;
+     height: 1.5vw;
+     font-size: 1vw;
+     display: inline;
+     float: left;
+
+ }
+
+ .container>div>.contenu>.modules>.module>div>img{
+     height: 1.5vw;
+     width: 1.5vw;
+     display: inline;
+     float: right;
+     padding: 1vh;
+     left: 2vh;
+ }
+ #btn{
+     position: absolute;
+     bottom: 10%;
+     right: 3%;
+     height: 10vh;
+     width: 10vh;
+     /*background: rgba(255,255,255,0);
+     border: none;*/
+ }
+ .addModule{
+     position: absolute;
+     bottom: 15%;
+     right: 20%;
+     background-color: #f1ffe7;
+     width: 60%;
+     height: 60%;
+     display: none;
+     border-radius: 3%;
+     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+ }
+ .container>div>.contenu>.modules>.module>div>.dropdown>.dropdown-content {
+     /*display: none;*/
+     /*position: absolute;*/
+     background-color: #f1f1f1;
+     width: 8vw;
+     box-shadow: 0px 8px 16px 0px rgba(0,4,0,0.2);
+     z-index: 1;
+     background-color: #048b93;
+     border-radius: 8%;
+ }
+ .container>div>.contenu>.modules>.module>div>.dropdown {
+     position: absolute;
+     width: 8.5vw;
+     max-height: 4vh;
+     display: inline;
+     bottom: -4.5vh;
+     right: 2vh;
+     z-index: 2;
+     display: none;
+ }
+ .container>div>.contenu>.modules>.module>div>.dropdown>.dropdown-content a {
+     color: black;
+     /*padding: 12px 16px;*/
+     text-decoration: none;
+     font-size: 1vw;
+     width: 100%;
+     height: 50%;
+
+ }
+ .container>div>.contenu>.modules>.module>div>.dropdown>.dropdown-content a:hover {
+     background-color: #ddd;
+ }
+
+ .addModule{
+     position: absolute;
+     bottom: 15%;
+     right: 20%;
+     background-color: whitesmoke;
+     width: 60%;
+     height: 60%;
+     /*display: none;*/
+     border-radius: 3%;
+     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+ }
+ .infoGeneral{
+     position: absolute;
+     height: 85%;
+     width: 100%;
+     /*padding: 5%;*/
+     background-color: white;
+     /*border: 1px solid black;*/
+ }
+ .traitement{
+     position: absolute;
+     height: 15%;
+     width: 100%;
+     background-color: white;
+     bottom: 0%;
+
+ }
+ .infoModule{
+     position: absolute;
+     width: 50%;
+     height: 85%;
+     padding: 1%;
+     margin: 2.5%;
+     /*border: 1px solid black;*/
+     display: inline-block;
+     background-color: white;
+     color: black;
+     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+
+ }
+ .coursModule{
+     position: absolute;
+     width: 35%;
+     height: 85%;
+     padding: 1%;
+     background-color: white;
+     display: inline-block;
+     right: 0%;
+     /*border: 1px solid black;*/
+     color: black;
+     margin: 2.5%;
+     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+ }
+ .coursModule>div:first-child{
+     font-size: 2vw;
+     border: 1px;
+     border-color: black;
+     margin-bottom: 2%;
+ }
+ .coursModule>a{
+     position: absolute;
+     text-decoration: none;
+     bottom: 5%;
+     right: 5%;
+     /*border: 1px solid  blue;*/
+     font-size: 1.25vw;
+     height: 5%;
+ }
+ .lab{
+     font-size: 1.5vw;
+     /*color: #cc442b;*/
+ }
+ .nomModule{
+     width: 60%;
+     height: 10%;
+     font-size: 1.5vw;
+     color: #6c464e;
+ }
+ .discription{
+     position: absolute;
+     width: 90%;
+     height: 30%;
+     left: 4%;
+     margin-top: 3%;
+ }
+ .traitement>input{
+     position: relative;
+     height: 60%;
+     width: 15%;
+     text-align: center;
+     font-size: 80%;
+     text-decoration: none;
+     background-color: black;
+     color: white;
+     font-weight: bold;
+     /*margin: 1vh;*/
+     margin-top: 1%;
+ }
+ .btnAnnuler{
+     float: left;
+     margin-left: 2.5%;
+ }
+ .btnSubmit{
+     float: right;
+     margin-right: 2.5%;
+ }
+ .cours>span:first-child{
+     margin-right: 2%;
+ }
+ .cours{
+     border-bottom:  1px solid grey ;
+ }
+ .listCours{
+     position: relative;
+     height: 75%;
+     overflow-y: auto;
+     /*border: 1px solid black;*/
+ }
+ .coursModule>div:first-child{
+     color: #4aa0e6;
+     height: 10%;
+ }
